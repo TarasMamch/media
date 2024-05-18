@@ -1,5 +1,30 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "2229",
+      "name": "Ralph O'Reilly"
+    },
+    {
+      "id": "7ade",
+      "name": "Mrs. Erica Bradtke"
+    },
+    {
+      "id": "3b13",
+      "name": "Pedro Schulist"
+    },
+    {
+      "id": "b53e",
+      "name": "Nina Littel"
+    },
+    {
+      "id": "e342",
+      "name": "Sandy Wiegand II"
+    },
+    {
+      "id": "0367",
+      "name": "Myron Crooks"
+    }
+  ],
   "albums": [],
   "photos": []
 }
