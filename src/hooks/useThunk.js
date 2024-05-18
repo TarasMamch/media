@@ -8,7 +8,7 @@ export function useThunk(thunk) {
 
     const runThunk = useCallback(() => {
         setIsLoading(true)
-        dispatch(thunk(arg))
+        dispatch(thunk())
             .unwrap()
             .catch(err => setError(err))
             .finally(() => setIsLoading(false))
