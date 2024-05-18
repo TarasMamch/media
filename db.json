@@ -1,5 +1,18 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "4",
+      "name": "Darin Hessel"
+    },
+    {
+      "id": "337c",
+      "name": "Dr. Stacey Ryan"
+    },
+    {
+      "id": "7cc6",
+      "name": "Vicki Jerde"
+    }
+  ],
   "albums": [],
   "photos": []
 }
