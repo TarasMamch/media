@@ -1,5 +1,16 @@
 {
-  "users": [],
-  "albums": [],
+  "users": [
+    {
+      "id": "f5b1",
+      "name": "Faith Cremin"
+    }
+  ],
+  "albums": [
+    {
+      "id": "7020",
+      "userId": "f5b1",
+      "title": "Bespoke Concrete Pizza"
+    }
+  ],
   "photos": []
 }
