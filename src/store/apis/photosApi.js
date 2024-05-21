@@ -19,8 +19,8 @@ const photosApi = createApi({
                     }
                 }
             }),
-            addPhoto: builder.query({
-                mutation: (album) => {
+            addPhoto: builder.mutation({
+                query: (album) => {
                     return {
                         url: './photos',
                         method: "POST",
@@ -32,7 +32,7 @@ const photosApi = createApi({
                 }
             }),
             removePhoto: builder.mutation({
-                mutation: (photo) => {
+                query: (photo) => {
                     return {
                         url: `/photos/${photo.id}`,
                         method: "DELETE"
@@ -45,7 +45,7 @@ const photosApi = createApi({
 
 export const {
     useFetchPhotosQuery,
-    useAddPhotosMutation,
-    useRemovePhotosMutation
+    useAddPhotoMutation,
+    useRemovePhotoMutation
 } = photosApi
 export { photosApi }
